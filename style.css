@@ -1,0 +1,112 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1278px;
+  height: 100%;
+  margin: 0 auto;
+  border-top: 5px solid #222;
+  }
+header {    
+  width: 80%;
+  height: 405px;
+  font-family: 'Abril Fatface', cursive;
+  font-color: #222;
+  background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: bottom;
+  background-color: #222;  
+}
+main {
+  width: 75%;
+  height: 100%
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px auto;
+}
+header, p {  
+  padding-left: 10%;
+  padding-right: 10%;
+}
+h1, h2 {
+  margin-left: 13%;
+}
+h1 {
+  font-size: 71px; 
+  margin-top: 0;    
+}
+h2 {
+  font-size: 35px;
+  margin-bottom: 0;  
+  margin-top: 22%;
+}
+p, ul {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-size: 16px;
+}
+.big {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+ul {
+  list-style-type: square;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 30px;
+}
+blockquote {
+  width: 80%;
+  margin: 60px auto;
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 53px;
+  background: #222;
+  padding: 0 5% 50px 1em;  
+  text-indent: -0.7em;
+}
+blockquote::before {
+  content: '”';
+  /* then the styling */
+  font-size: 150px;
+  display: inline-block;
+  transform: rotate(180deg);
+  position: relative;
+  top: -50px;
+  left: -15px;
+  line-height: 0.6;
+}
+.title2 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 23px;  
+}
+.title3 {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0; 
+  padding-bottom: 3px;
+}
+.title {
+  font-weight: bold;  
+  font-size: 23px;
+  padding-top: 30px;
+}
+.title1 {
+  font-weight: bold;  
+  font-size: 24px;
+  text-transform: uppercase;
+}
+hr {
+  width: 85%;
+  height: 5px;
+  background: #222;
+  border: 0;  
+}
+.last {
+  margin-top: 60px;  
+}
