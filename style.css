@@ -11,7 +11,7 @@ header {
   width: 80%;
   height: 405px;
   font-family: 'Abril Fatface', cursive;
-  font-color: #222;
+  color: #222;
   background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
   background-size: cover;
   background-repeat: no-repeat; 
@@ -20,8 +20,8 @@ header {
 }
 main {
   width: 75%;
-  height: 100%
-    display: flex;
+  height: 100%;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 50px auto;
@@ -64,19 +64,18 @@ blockquote {
   color: white;
   font-size: 53px;
   background: #222;
-  padding: 0 5% 50px 1em;  
-  text-indent: -0.7em;
+  padding: 1em 5% 50px 1em;  
+  position: relative;
 }
 blockquote::before {
-  content: '”';
+  content: '\201C';
   /* then the styling */
-  font-size: 150px;
-  display: inline-block;
-  transform: rotate(180deg);
-  position: relative;
-  top: -50px;
-  left: -15px;
-  line-height: 0.6;
+  font-size: 150px;    
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  line-height: 0.8;
+  position: absolute;
 }
 .title2 {
   font-weight: bold;
